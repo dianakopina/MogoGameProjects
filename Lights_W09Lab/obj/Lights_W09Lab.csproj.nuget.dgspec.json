@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DAE\\PD1\\Lights_W09Lab\\Lights_W09Lab.csproj": {}
+  },
+  "projects": {
+    "D:\\DAE\\PD1\\Lights_W09Lab\\Lights_W09Lab.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DAE\\PD1\\Lights_W09Lab\\Lights_W09Lab.csproj",
+        "projectName": "Lights_W09Lab",
+        "projectPath": "D:\\DAE\\PD1\\Lights_W09Lab\\Lights_W09Lab.csproj",
+        "packagesPath": "C:\\Users\\wirus\\.nuget\\packages\\",
+        "outputPath": "D:\\DAE\\PD1\\Lights_W09Lab\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wirus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\wirus\\Downloads\\Folder": {},
+          "C:\\Users\\wirus\\Downloads\\sourcematerial_scrat (1)\\sourcematerial": {},
+          "C:\\Users\\wirus\\Downloads\\sourcematerial_scrat\\sourcematerial": {},
+          "D:\\DAE\\PD1\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource1": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "GeoSketch": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "MonoGame.Framework.WindowsDX": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
